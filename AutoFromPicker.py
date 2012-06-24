@@ -73,7 +73,8 @@ class MailDocumentEditor(objc.Category(MailDocumentEditor)):
         to_line = backend.allRecipients()
         if to_line:
             for to in to_line:
-                NSLog('%s %s' % (from_line, to))
+                # The below logging breaks if there's a non-ASCII character in the From/To headers.
+                #NSLog('%s %s' % (from_line, to))
                 for account, strings in ACCOUNTS.items():
                     for string in strings:
                          if string.lower() in to.lower() and from_line.lower() != account.lower():
