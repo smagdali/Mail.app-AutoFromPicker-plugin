@@ -2,6 +2,7 @@ Mail.app-AutoFromPicker-plugin
 ==============================
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Automatically keep work and personal OS X Mail.app accounts separate.
 
 Here, it does three things, with a bug in one of them:
@@ -73,3 +74,6 @@ When you alter the recipient lines whilst writing an email, it updates the From 
 When you hit send, it does a final check of the recipients and brings up a dialogue box (though given 1 and 2 it probably won't have to do that, as it'll already be set correctly).
 [1] It does do this, but it does not refresh the display of the dropdown - this is the bug, I can't work out how to tell it to redraw. I think pre-Lion had a call that was removed in Lion; I imagine there must be a way, but as none of this is documented, I'm not sure how to find out.
 >>>>>>> better README.md
+=======
+Automatically keep work and personal OS X Mail.app accounts separate
+>>>>>>> Revert "better README.md"
