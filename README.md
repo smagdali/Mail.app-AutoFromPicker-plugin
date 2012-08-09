@@ -1,8 +1,6 @@
 Mail.app-AutoFromPicker-plugin
 ==============================
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Automatically keep work and personal OS X Mail.app accounts separate.
 
 Here, it does three things, with a bug in one of them:
